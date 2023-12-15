@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="sass.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="fish-name">
+                    <!-- Write your species name under the anchor tag -->
+                    <a href="index.html">  Sea Turtle </a>
+                </div>
+         <div class="nav-toggle">
+           <span></span>
+         </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="index.html">Prey & Predators</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html">World Count</a></li>
+                        <li><a href="index.html">Honesty Declaration</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Gallery Section Start -->
+<section class="gallery-section" id="gallery">
+	<h2>Gallery</h2>
+	
+
+  <!--Image 2 in the gallery-->
+  
+  <!--Image 3 in the gallery--> 
+  
+  <!--Image 4 in the gallery--> 
+  <div class="gallery">
+	  <a href="fish.jpg" data-lightbox="gallery4" data-title="loggerHead"><img src="fish.jpg" width="800" height="900"></a>
+		
+	  
+	  <div class="desc"> Snaper fish are family of parsiform fish.</div>
+  </div>
+
+	<!--Image 5 in the gallery-->
+	<div class="gallery">
+	  <a href="goby.jpeg" data-lightbox="gallery4"><img src="goby.jpeg" data-title="OliveRidley" alt="Mountains" width="800" height="400"></a>
+		
+	  
+	  <div class="desc">The round goby is an aggresive bottom dweling fish</div>
+	</div>
+	<div class="gallery">
+	  <a href="Anabus.jpeg" data-lightbox="gallery4"><img src="Anabus.jpeg" data-title="GreenTurtle" alt="Mountains" width="800" height="400"></a>
+		
+	  
+	  <div class="desc">Anabus is an genus of climbing goranames native to suthern and eastern fish</div>
+	</div>
+	<div class="gallery">
+    <a href="eel.jpeg" data-lightbox="gallery4"><img src="eel.jpeg" data-title="Kemp'sRidley" alt="Mountains" width="800" height="400"></a>
+		
+	  
+	  <div class="desc">Eels are ray fined fish belonging to the order Anguliforms</div>
+	</div>
+	<div class="gallery">
+    <a href="Skate.jpeg" data-lightbox="gallery4"><img src="Skate.jpeg" data-title="Flatbacks" alt="Mountains" width="800" height="400"></a>
+	
+		
+	  
+	  <div class="desc">Skate fish are cartiliginious fish belonging to the family rajidae.</div>
+	</div>
+
+	
+	
+</section>
+<br> 
+<!-- Gallery Section End --> 
+<script>
+	$(document).ready(function() {
+    // Assuming your navigation bar has the class 'navbar', you can use the following code
+    $('.header').css('position', 'fixed');
+});
+</script>
+</body>
+</html>

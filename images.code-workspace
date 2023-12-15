@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../../../../Desktop/lightbox2-dev/lightbox2-dev/dist/images"
+		},
+		{
+			"name": "src",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "src"
+	}
+}

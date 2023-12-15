@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header>
+        
+    </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contactstyle.css">
+    <link rel="stylesheet" href="sass.css">
+    <div class="container">
+    <title>Contact Us Form</title>
+    <!--Internal Css-->
+    <style>
+        
+        body
+        
+        
+        
+        {
+            font-family: sans-serif;
+            background-image: url(fish.jpg);
+        }
+       
+        h2{
+            color: rgb(7, 61, 90);
+        }
+        label{
+            display: inline-block; 
+        }
+       .block1{
+            display: inline-block;
+            width:130px;
+            margin-bottom: 20px;
+        }
+        .block2{
+            display: inline-block;
+            width: 50px;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="email"]{
+            width: 300px;
+            text-align: center;
+        }
+        .asterik{
+            color: red;
+        }
+        textarea{
+          margin-bottom: 20px;
+        }
+        .textareaa{
+            margin-top: 20px;
+        }
+        .btn{
+            width: 240px;
+            padding: 2px 30px;
+            margin-right:40px ;
+            background-color: red;
+            color:rgb(218,223,54);
+            font-weight:bold;
+        }
+    </style>
+</head>
+<div class="loop-wrapper">
+    <div class="mountain"></div>
+    <div class="hill"></div>
+    <div class="tree"></div>
+    <div class="tree"></div>
+    <div class="tree"></div>
+    <div class="rock"></div>
+    <div class="truck"></div>
+    <div class="wheels"></div>
+  </div> 
+
+
+
+
+
+    <div class="outerbox">
+    <h2>Contact Us</h2>
+    
+   
+    <p><b>Note:</b> An asterick(<span class="asterik">*</span>) indicates a response is required.</p>
+    <form action="https://formspree.io/f/myyqrneo" method="post">
+
+        <label for="fname" class="block1">First Name  <span class="asterik">*</span></label>
+        <input type="text" name="fname" id="fname" placeholder="First Name"> <br>
+        <label for="lname" class="block1">Last Name <span class="asterik">*</span></label>
+        <input type="text" name="lname" id="lname" placeholder="Last name"> <br>
+        <label for="Email" class="block1">Email Address <span class="asterik">*</span></label>
+        <input type="email" name="Email" id="Email" placeholder="Email"> <br>
+        <label for="Date"  class="block1">Date <span class="asterik">*</span></label>
+        <input type="text" name="Date" id="Date" placeholder="dd/mm/yyyy"><br>
+        <label for="Phone" class="block1">Phone<span class="asterik">*</span></label>
+        <input type="text" name="Phone" id="Phone" placeholder="Phone Details">
+
+        <br>
+      
+        
+  
+       <label for="textareaa" class="textareaa">Tell us what more you know about this species? <span class="asterik">*</span></label> <br>
+       <textarea name="textareaa" id="textareaa" cols="50" rows="6"></textarea>
+       <br>
+
+    
+    <!--Submit button-->
+       <input type="submit" class="btn" value="Submit">
+      
+        
+       
+                
+           
+              
+                
+           
+
+    </form>
+</div>
+    
+    
+    
+    
+</div>
+</body>
+</html>
